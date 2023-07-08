@@ -58,24 +58,23 @@ main section{
   border-radius: 10px;
   display: flex;
   align-items: center;
-  margin: 130px 320px 0 200px;
   justify-content: space-around;
+  gap: 500px;
 }
 .pic{
   width: 451px;
   height: 898px;
   background-image: url('../image/person1.png');
-  background-blend-mode: color;
   background-repeat: no-repeat;
 }
 
 }
 .past-content{
   display: flex;
-  width: 416px;
+  
+  align-items: center;
   flex-direction: column;
   text-align: left;
-  padding-left: 800px;
 }
 .past-title{
   width:290px ;
@@ -132,6 +131,88 @@ span{
 .watch {
   width: 1140px;
   height: 300px;
-  margin: 0 230px;
+  margin: 130px 230px;
   background-image: url('../image/gradient2.png'), url('../image/watch.png');
+  background-position: center;
+  padding-left: 300px;
+  background-repeat: no-repeat;
+}
+.watch-title{
+  text-align: left;
+  display: flex;
+  width: 459px;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 70px;
+}
+.watch-title h1{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.watch-title button{
+  width: 140px;
+  height: 50px;
+  color: #F15B22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+footer{
+  background: #151414;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  display: flex;
+  color: #FFF;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 270px;
+}
+.future{
+  padding: auto;
+  width: 485px;
+}
+.future h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+.future p{
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+.subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.subscribe h1{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subscribe input{
+  color: #151414;
+  width: 325px;
+  height: 65px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+}
+.subscribe button{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: #FFF;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+}
+.icons{
+  display: flex;
+  gap: 15px;
 }

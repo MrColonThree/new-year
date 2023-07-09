@@ -45,6 +45,13 @@
   font-weight: 600;
   background-color: #f15b22;
   border-radius: 5px;
+  
+}
+.header-btn:hover{
+  color: #f15b22;
+  background-color: #fff;
+  cursor: pointer;
+  transform: scale(1.05);
 }
 main{
   margin: auto;
@@ -52,29 +59,28 @@ main{
 main section{
   margin-top: 130px;
 }
-.past{ 
-   
+.past{  
   background:#FFF;;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 500px;
+  gap: 100px;
+  margin: 130px 230px;
 }
 .pic{
   width: 451px;
   height: 898px;
-  background-image: url('../image/person1.png');
-  background-repeat: no-repeat;
 }
 
 }
 .past-content{
   display: flex;
-  
   align-items: center;
-  flex-direction: column;
-  text-align: left;
+}
+.pastContent{
+ padding-top: 50px;
+ width: 600px;
+ padding-right: 100px;
 }
 .past-title{
   width:290px ;
@@ -159,6 +165,11 @@ span{
   font-size: 20px;
   font-weight: 600;
 }
+.watch-title button:hover{
+  color:#fff;
+  background-color: #f15b22;
+  transform: scale(1.05);
+}
 footer{
   background: #151414;
   position: relative;
@@ -195,13 +206,13 @@ footer{
   font-size: 25px;
   font-weight: 600;
 }
-
 .subscribe input{
   color: #151414;
   width: 325px;
-  height: 65px;
+  height: 55px;
   border-radius: 10px;
   border: 1px solid #FFF;
+  font-size: 25px;
 }
 .subscribe button{
   width: 150px;
@@ -211,6 +222,17 @@ footer{
   color: #F15B22;
   font-size: 20px;
   font-weight: 600;
+  
+}
+.subscribe button:hover{
+  color: #FFF;
+  background-color: #f15b22;
+  transform: scale(1.05);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+::placeholder{
+  padding-left: 10px;
 }
 .icons{
   display: flex;

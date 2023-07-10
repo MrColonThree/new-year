@@ -8,7 +8,7 @@
 
 .header {
   position: relative;
-  background-image: url('../image/banner/banner2.png');
+  background-image: url('../newyear/image/banner/banner2.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -136,7 +136,7 @@ span{
   width: 1140px;
   height: 300px;
   margin: 130px 230px 130px 340px;
-  background-image: url('../image/gradient2.png'), url('../image/watch.png');
+  background-image: url('../newyear/image/gradient2.png'), url('../newyear/image/watch.png');
   background-position: center;
   padding-left: 100px;
   background-repeat: no-repeat;
